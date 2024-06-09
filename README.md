@@ -60,8 +60,8 @@ Train and evaluate various machine learning models:
 - Random Forest
 - Gradient Boosting
 - SVM
-Evaluate the performance of each model using the following metrics:
 
+Evaluate the performance of each model using the following metrics:
 - Precision
 - Recall
 - F1 Score
