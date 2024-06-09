@@ -69,7 +69,9 @@ Evaluate the performance of each model using the following metrics:
 
 ## Results Visualization
 Visualize important variables and interaction effects.
+
 Visualize the ROC curves of each model.
+
 Visualize the variable importance for each model.
 
 ## Execution
