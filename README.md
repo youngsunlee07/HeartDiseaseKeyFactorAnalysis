@@ -6,9 +6,16 @@ This project aims to predict heart disease and identify the most influential fac
 ## Data Description
 The dataset, `heart.csv`, includes various predictors for heart disease such as age, blood pressure, cholesterol levels, and more. Both continuous and categorical variables are included:
 - **Continuous Variables:** Age, RestingBP, Cholesterol, MaxHR, Oldpeak
-- **Categorical Variables:** Sex, ChestPainType, FastingBS, RestingECG, ExerciseAngina, ST_Slope
+- **Categorical Variables:** Sex, ChestPainType, FastingBS, RestingECG, ExerciseAngina, ST_Slope 
 
-## Required Packages
+## Usage
+1. Install the required packages
+2. Ensure the path in the 'read.csv' function reflects the location of the 'heart.csv' file. 
+3. Run the R script in your R environment.
+4. Review the results and analyze the visualized graphs. 
+
+## Implementation Details
+### Required Packages
 The following R packages are required:
 - caret
 - e1071
@@ -26,19 +33,19 @@ The following R packages are required:
 - lattice
 - purrr
 
-## Data Preprocessing
+### Data Preprocessing
 1. Load the data from the 'heart.csv' file and convert the HeartDisease variable to a factor.
 2. Create dummy variables for the categorical variables.
 3. Keep the continuous variables as they are.
 4. Combine the dummy variables and continuous variables into a final data frame.
 5. Split the data into training and testing sets.
 
-## Variable Selection and Interaction Effects Analysis
+### Variable Selection and Interaction Effects Analysis
 - Use Chi-Squared tests and Fisher's Exact tests to select important categorical variables.
 - Use Point-Biserial correlation to select important continuous variables.
 - Visualize significant interaction effects.
 
-## Model Training and Evaluation
+### Model Training and Evaluation
 Train and evaluate various machine learning models:
 - Logistic Regression
 - Decision Tree
@@ -53,17 +60,11 @@ Evaluate the performance of each model using the following metrics:
 - F1 Score
 - AUC (Area Under the Curve)
 
-## Results Visualization
+### Results Visualization
 Visualizations include:
 - Important variable identification.
 - Interaction effects between variables.
 - ROC curves for each model.
-
-## Execution
-1. Install the required packages
-2. Ensure the path in the 'read.csv' function reflects the location of the 'heart.csv' file. 
-3. Run the R script in your R environment.
-4. Review the results and analyze the visualized graphs. 
 
 ## Contact
 For any questions or inquiries, please contact: youngsun.lee07@gmail.com
